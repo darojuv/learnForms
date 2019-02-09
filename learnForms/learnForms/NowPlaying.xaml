@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="learnForms.NowPlaying">
+    <ContentPage.Content>
+        <ListView x:Name="LvNowPlaying" SeparatorVisibility="None" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame HasShadow="False" Padding="0" Margin="5" BorderColor="silver">
+                        <Grid Margin="15,5,10,5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Frame Grid.Column="0" CornerRadius="20" Padding="0">
+                                    <Image Aspect="AspectFill" Source="{Binding CoverImage}" />
+                            </Frame>
+                            <StackLayout Grid.Column="1" Margin="10,0,0,0">
+                                    <Label FontSize="20" TextColor="Black" Text="{Binding MovieName}"/>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label TextColor="#757575" Font="16" Text="Director" />
+                                        <Label TextColor="Black" Font="16" Text="{Binding Director}" />
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label TextColor="#757575" Font="16" Text="Duration" />
+                                        <Label TextColor="Black" Font="16" Text="{Binding Duration}" />
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label TextColor="#757575" Font="16" Text="Language" />
+                                        <Label TextColor="Black" Font="16" Text="{Binding Language}" />
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                        <Label TextColor="Black" Font="18" FontAttributes="Bold" Text="{Binding Rating}" />
+                                    <Image HeightRequest="20" WidthRequest="20" Source="star_icon.png" />
+                                </StackLayout>
+                            </StackLayout>
+                        </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:learnforms="clr-namespace:learnForms"
+            x:Class="learnForms.HomePage"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.BarItemColor="Black"
+            android:TabbedPage.BarSelectedItemColor="Red"
+            >
+  <!--Pages can be added as references or inline-->
+    <learnforms:NowPlaying Title="Now Playing" Icon="nowplaying_movies.png"></learnforms:NowPlaying>
+    <learnforms:Upcoming Title="UpComing" Icon="upcoming_movies.png"></learnforms:Upcoming>
+    <learnforms:Latest Title="Latest" Icon="latest_movies.png"></learnforms:Latest>
+</TabbedPage>

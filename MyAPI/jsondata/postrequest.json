@@ -1,0 +1,11 @@
+﻿[
+  {
+    "MovieName": "Mission Impossible",
+    "CustomerName": "Andrew",
+    "BookingDate": "02-10-2018",
+    "Qty": "2",
+    "Phone": "001256985142",
+    "Email": "andrewmarcelo@gmail.com",
+    "TotalPayment": "250"
+  }
+]

@@ -1,0 +1,22 @@
+﻿[
+  {
+    "MovieId": 7,
+    "MovieName": "Antman and the wasp",
+    "Cast": "Andrew",
+    "Director": "Perttina Jackson",
+    "Description": "Good movies",
+    "Language": "English",
+    "Duration": "140 minutes",
+    "PlayingDate": "2018-07-06T00:00:00",
+    "ShowTime1": "2018-06-29T06:29:00",
+    "ShowTime2": "2018-06-29T11:29:00",
+    "ShowTime3": "2018-06-29T02:29:00",
+    "TicketPrice": "50",
+    "Rating": 8.1,
+    "RatedLevel": "pg13",
+    "Genre": "Action , Super Hero",
+    "TrailorLink": "https://www.youtube.com/watch?v=UUkn-enk2RU",
+    "Logo": "~/Content/NowPlayingMovies/3.png",
+    "LogoFile": null
+  }
+]

@@ -1,0 +1,15 @@
+﻿[
+  {
+    "MovieId": 1,
+    "MovieName": "Iron Man",
+    "Cast": "Robert Downy Jr.",
+    "Director": "Asfend",
+    "Description": "Well movie",
+    "Language": "English",
+    "ReleaseDate": "2018-06-29T00:00:00",
+    "Genre": "Action , Super Hero",
+    "TrailorLink": "https://www.youtube.com/watch?v=8hYlB38asDY",
+    "Logo": "~/Content/UpComingMovies/3.png",
+    "LogoFile": null
+  }
+]
